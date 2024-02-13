@@ -31,14 +31,21 @@
     }
     
     60%{
-       margin: auto;
+       margin-top:30vh;
+       margin-left:50%;
     }
-
+    70%{
+        margin-top:0;
+        margin-left:0;
+        margin-right:90%;
+    }
 
 
 }
 
 
 img{
-    animation: changeDirectoin 4s;
+    animation: changeDirectoin 4s ease-in;
+    animation-delay: 0ms;
+  
 }
